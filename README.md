@@ -6,7 +6,7 @@ Movie Requests: Users can request movies within your Discord server, and the bot
 Automated Downloads: Integrates with YTS for direct movie downloads via torrent.
 Plex Integration: Automatically adds downloaded movies to your Plex library for seamless playback.
 
-#Requirements
+Requirements
 Make sure you have the following set up:
 
 Python 3.8+
@@ -29,6 +29,19 @@ openid
 messages.read
 bot
 Install the Bot on your Discord server by generating an invite link in the Developer Console and inviting it to your server.
+
+Plex Setup
+To find the Plex URL and Plex Token, right click on a movie in your plex server and click on "Get Info". Click on "View XML". Copy the URL. The Plex URL will be the first value and the token will be at the end.
+
+ENV
+Create a .env file in the root of the project:
+PLEXURL = 'plex url' # eg https://192-123-4-567.aaaaaaaaaaaaaaaaaaaaaa.plex.direct:12345/
+PLEXTOKEN = 'plex token'
+discordToken = 'discord bot token'
+moviesPath = "path to folder containing plex movies"
+plexMovieServer = "name of plex server"
+seriesPath = "path to folder containing plex series"
+rootPath = "path to root folder containing movies / series subfolders"
 
 Running the Bot
 To start the bot, simply run the main.py file
