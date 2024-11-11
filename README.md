@@ -1,4 +1,4 @@
-#Discord-Plex Movie Request Bot
+Discord-Plex Movie Request Bot
 A Discord bot that allows users to request movies from YTS, download them automatically via torrent, and add them directly to your Plex server. Simplify media requests and keep your Plex library updated effortlessly.
 
 #Features
@@ -30,7 +30,7 @@ messages.read
 bot
 Install the Bot on your Discord server by generating an invite link in the Developer Console and inviting it to your server.
 
-#Running the Bot
+Running the Bot
 To start the bot, simply run the main.py file
 To request a movie, send "!plex" in the discord server
 You will then be prompted to enter the name of the movie
