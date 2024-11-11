@@ -33,6 +33,9 @@ Install the Bot on your Discord server by generating an invite link in the Devel
 Plex Setup
 To find the Plex URL and Plex Token, right click on a movie in your plex server and click on "Get Info". Click on "View XML". Copy the URL. The Plex URL will be the first value and the token will be at the end.
 
+Bittorrent Setup
+Update the "Put new downloads in" preference to the path of your Plex Movies folder
+
 ENV
 Create a .env file in the root of the project:
 PLEXURL = 'plex url' # eg https://192-123-4-567.aaaaaaaaaaaaaaaaaaaaaa.plex.direct:12345/
